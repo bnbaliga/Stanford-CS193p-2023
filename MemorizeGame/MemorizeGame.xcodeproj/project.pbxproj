@@ -14,6 +14,7 @@
 		8589AC382B0533E400758178 /* MemorizeGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589AC372B0533E400758178 /* MemorizeGameTests.swift */; };
 		8589AC422B0533E400758178 /* MemorizeGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589AC412B0533E400758178 /* MemorizeGameUITests.swift */; };
 		8589AC442B0533E400758178 /* MemorizeGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8589AC432B0533E400758178 /* MemorizeGameUITestsLaunchTests.swift */; };
+		858DBA1A2B05560D00FF7B95 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858DBA192B05560D00FF7B95 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8589AC3D2B0533E400758178 /* MemorizeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8589AC412B0533E400758178 /* MemorizeGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGameUITests.swift; sourceTree = "<group>"; };
 		8589AC432B0533E400758178 /* MemorizeGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		858DBA192B05560D00FF7B95 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		8589AC242B0533E300758178 /* MemorizeGame */ = {
 			isa = PBXGroup;
 			children = (
+				858DBA182B0555F600FF7B95 /* Views */,
 				8589AC252B0533E300758178 /* MemorizeGameApp.swift */,
 				8589AC272B0533E300758178 /* ContentView.swift */,
 				8589AC292B0533E300758178 /* Assets.xcassets */,
@@ -127,6 +130,14 @@
 				8589AC432B0533E400758178 /* MemorizeGameUITestsLaunchTests.swift */,
 			);
 			path = MemorizeGameUITests;
+			sourceTree = "<group>";
+		};
+		858DBA182B0555F600FF7B95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				858DBA192B05560D00FF7B95 /* CardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8589AC282B0533E300758178 /* ContentView.swift in Sources */,
+				858DBA1A2B05560D00FF7B95 /* CardView.swift in Sources */,
 				8589AC262B0533E300758178 /* MemorizeGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
