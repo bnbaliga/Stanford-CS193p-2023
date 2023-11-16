@@ -9,6 +9,8 @@ import SwiftUI
 
 struct CardView: View {
     @State var IsFaceUp: Bool = false
+    
+    let cardContent: String
     var body: some View {
         ZStack{
             
@@ -16,7 +18,7 @@ struct CardView: View {
             {
                 RoundedRectangle(cornerRadius: 12).fill(.orange)
                 RoundedRectangle(cornerRadius: 12).strokeBorder(lineWidth: 2)
-                Text("👻").font(.system(size: 30))
+                Text(cardContent).font(.system(size: 30))
             }
             else
             {
@@ -29,6 +31,9 @@ struct CardView: View {
     }
 }
 
+/*
 #Preview {
     CardView()
 }
+
+*/

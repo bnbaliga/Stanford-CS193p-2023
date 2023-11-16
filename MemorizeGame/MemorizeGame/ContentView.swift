@@ -8,10 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let emojis: [String] = ["🎃","👻","🐶","🐈"]
     var body: some View {
         VStack {
-            CardView(IsFaceUp: true)
-            CardView()
+            
+            ForEach(0..<4, id: \.self) { index in
+                CardView(IsFaceUp: true, cardContent: emojis[index])
+            }
+
         }
         .padding()
     }
